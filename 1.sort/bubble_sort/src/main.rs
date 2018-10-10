@@ -1,6 +1,6 @@
 fn main() {
     println!("Hello, Bubble sort!!!");
-    // todo : change read from file
+    // TODO : change read from file
     let mut target_array = [5, 2, 1, 3, 4];
 
     println!("start - {:?}", target_array);
@@ -11,8 +11,8 @@ fn main() {
 
 }
 
-// todo : change document format
-// todo : unit teset
+// TODO : change document format
+// TODO : unit test
 // do bubble sort
 fn bubble_sort(target_array : &mut[i32]) {
     let mut is_set = false;
